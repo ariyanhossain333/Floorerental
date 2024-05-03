@@ -34,9 +34,9 @@ const ImageSlider = () => {
       <div className="image-slider">
         <h2 className="slider-title">Binhoff gallery</h2>
         <div className='Carausa-btn'>
-            <button onClick={handleleft} className="button-left">⬅️ </button>
+            <button onClick={handleleft} className="button-left"><i class="fa-solid fa-left-long fa-xl"></i> </button> &nbsp; &nbsp;
            
-            <button onClick={handleright} className="button-right">➡️</button>
+            <button onClick={handleright} className="button-right"><i class="fa-solid fa-right-long fa-xl" ></i></button>
             {/* <i class="fa-light fa-left-long fa-xl"></i> */}
         </div>
       </div>

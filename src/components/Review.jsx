@@ -17,8 +17,15 @@ const Review = () => {
                     <p className="occupation"> Development Director</p>
 
                 </div>
+                <div className='review-btn'>
+                    <button className='leftbtns'><i class="fa-solid fa-left-long fa-xl"></i></button> &nbsp; &nbsp;
+                    <button><i class="fa-solid fa-right-long fa-xl" ></i></button>
+                </div>
 
-                <h3 className='numbers'> ⬅️ 01/14➡️</h3>
+                {/* <h3 className='numbers'> ⬅️ 01/14➡️</h3> */}
+               
+                
+               
             </div>
 
         </div>

@@ -13,6 +13,7 @@ const InvestmentPotential = () => {
             <h1 className='text'> Invest <br/> in real <br />estate </h1>
             <button className='request'>Request a call</button>
             <button className='consulation'>To get the consulation</button>
+            
             </div>
             <div className="invest-right">
                 <div className="images">
